@@ -14,7 +14,6 @@ namespace HarvesterAI
             me = new Harvester();
             me.m_currentState = new HarvestState();
 
-            // me.SetState(new HarvestState());
             while (true)
             {
                 System.Threading.Thread.Sleep(500);

@@ -14,12 +14,7 @@ namespace HarvesterAI
 
         public int Exhaustion = 0;
         public int HarvestedBananas = 0;
-        /*public enum State
-        {
-            Harvesting,
-            Resting
-        }
-        */
+
         public State m_currentState;
         public bool IsExhausted()
         {
